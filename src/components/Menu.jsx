@@ -29,7 +29,7 @@ const Menu = () => {
         {recipes.map(({ id, title, image, price, description }) => {
           return (
             <div key={id} className="menu-items">
-              <img src={image} alt={title} />
+              <img src={require(`../images/${image}`)} alt={title} />
               <div className="menu-content">
                 <div className="heading">
                   <h2>{title}</h2>

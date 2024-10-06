@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../images/restauranfood.jpg";
+import banner from "../images/restauranfood1.jpg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         {/* banner image */}
         <div className="banner-img">
-          <img src={banner} alt="banner-image" />
+          <img src={banner} alt="banner-image" style={{ objectFit: "cover" }} />
         </div>
       </section>
     </header>
